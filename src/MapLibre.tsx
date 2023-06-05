@@ -21,7 +21,7 @@ export const MapLibre: Component = () => {
       container: maplibreContainer,
       style: style,
       interactive: true,
-      hash: true,
+      
     }));
     map.on('load', async () => {
 
